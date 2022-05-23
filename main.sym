@@ -1,0 +1,120 @@
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 1.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+    .__.$$$.                                                    =  002710 L
+    .__.ABS.                                                    =  000000 G
+    .__.CPU.                                                    =  000000 L
+    .__.H$L.                                                    =  000001 L
+  8 _OLED_clear                                                    000549 GR
+  8 _OLED_clearblock                                               000565 GR
+  8 _OLED_drawbyte                                                 000410 GR
+  8 _OLED_drawchar                                                 00041C GR
+  8 _OLED_drawint                                                  0004ED GR
+  8 _OLED_drawtext                                                 0004BF GR
+  8 _OLED_normal                                                   00058E GR
+  8 _OLED_reverse                                                  000599 GR
+  8 _OLED_setpos                                                   000401 GR
+  8 ___str_0                                                       000D2C R
+  8 ___str_1                                                       000D3D R
+  8 ___str_10                                                      000DB5 R
+  8 ___str_11                                                      000DC6 R
+  8 ___str_2                                                       000D4B R
+  8 ___str_3                                                       000D59 R
+  8 ___str_4                                                       000D67 R
+  8 ___str_5                                                       000D75 R
+  8 ___str_6                                                       000D80 R
+  8 ___str_7                                                       000D91 R
+  8 ___str_8                                                       000D9E R
+  8 ___str_9                                                       000DAB R
+    __divulong                                                     ****** GX
+  5 __interrupt_vect                                               000000 R
+    __modulong                                                     ****** GX
+    __mulint                                                       ****** GX
+    __mullong                                                      ****** GX
+  6 __sdcc_gs_init_startup                                         000000 R
+  6 __sdcc_init_data                                               000000 R
+  5 __sdcc_program_startup                                         000080 R
+  3 __start__stack                                                 000000 R
+  9 __xinit__dsine                                                 000000 R
+  9 __xinit__dtri                                                  00000A R
+  8 _adc_init                                                      0001E0 GR
+  8 _clock_init                                                    0000AF GR
+  8 _delay_init                                                    000000 GR
+  8 _delay_ms                                                      000055 GR
+  8 _delay_timer                                                   00009A GR
+  8 _delay_us                                                      000005 GR
+  8 _drawAlphanum                                                  00077D GR
+  8 _drawArrow                                                     000956 GR
+  8 _drawBytes                                                     0009E5 GR
+  8 _drawFrame                                                     00081F GR
+  8 _drawInt                                                       0006F0 GR
+  8 _drawLoadingBar                                                000A64 GR
+  8 _drawPunct                                                     0007DE GR
+  2 _dsine                                                         000000 GR
+  2 _dtri                                                          00000A GR
+  8 _font_arr                                                      000AAC GR
+  8 _gpio_init                                                     0006EF GR
+  8 _i2c_ack_pos_current                                           000113 GR
+  8 _i2c_ack_pos_next                                              00011B GR
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 2.
+Hexadecimal [24-Bits]
+
+Symbol Table
+
+  8 _i2c_clear_ADDR                                                000162 GR
+  8 _i2c_clear_ack                                                 000103 GR
+  8 _i2c_clear_bits                                                00015A GR
+  8 _i2c_disable_interrupts                                        000173 GR
+  8 _i2c_enable_interrupts                                         00016E GR
+  8 _i2c_init                                                      0000B8 GR
+  8 _i2c_poll_ADDR                                                 00012E GR
+  8 _i2c_poll_BTF                                                  000139 GR
+  8 _i2c_poll_RXNE                                                 00014F GR
+  8 _i2c_poll_SB                                                   000123 GR
+  8 _i2c_poll_TXE                                                  000144 GR
+  8 _i2c_set_ack                                                   00010B GR
+  8 _i2c_set_address                                               0000DA GR
+  8 _i2c_set_start                                                 0000D5 GR
+  8 _i2c_set_stop                                                  0000FB GR
+  8 _i2c_write_1byte                                               000178 GR
+  8 _i2c_write_2byte                                               0001A6 GR
+  8 _loop                                                          0005D9 GR
+  8 _main                                                          0005A4 GR
+  8 _read_adc                                                      0001ED GR
+  1 _readreg                                                       000000 GR
+  8 _ssd1306_clear                                                 0003D2 GR
+  8 _ssd1306_init                                                  00028C GR
+  8 _ssd1306_sendcom                                               000387 GR
+  8 _ssd1306_senddat                                               000395 GR
+  8 _ssd1306_setpos                                                0003A3 GR
+  8 _uart1_init                                                    00022D GR
+  8 _uart1_recv                                                    000276 GR
+  8 _uart1_recv_i                                                  000287 GR
+  8 _uart1_send                                                    000265 GR
+    l_DATA                                                         ****** GX
+    l_INITIALIZER                                                  ****** GX
+    s_DATA                                                         ****** GX
+    s_GSINIT                                                       ****** GX
+    s_INITIALIZED                                                  ****** GX
+    s_INITIALIZER                                                  ****** GX
+
+
+ASxxxx Assembler V02.00 + NoICE + SDCC mods  (STMicroelectronics STM8), page 3.
+Hexadecimal [24-Bits]
+
+Area Table
+
+   0 _CODE                                      size      0   flags    0
+   1 DATA                                       size      1   flags    0
+   2 INITIALIZED                                size     18   flags    0
+   3 SSEG                                       size      1   flags    0
+   4 DABS                                       size      0   flags    8
+   5 HOME                                       size     83   flags    0
+   6 GSINIT                                     size     1A   flags    0
+   7 GSFINAL                                    size      3   flags    0
+   8 CODE                                       size    DD7   flags    0
+   9 INITIALIZER                                size     18   flags    0
+   A CABS                                       size      0   flags    8
+

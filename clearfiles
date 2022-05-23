@@ -1,0 +1,13 @@
+#!/bin/bash
+
+f="main"
+
+rm "$f.asm"
+rm "$f.cdb"
+rm "$f.ihx"
+rm "$f.lk"
+rm "$f.lst"
+rm "$f.map"
+rm "$f.rel"
+rm "$f.rst"
+rm "$f.sym"
